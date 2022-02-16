@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_qand_a_q_and_as",
+  "info": {
+    "name": "Q&A",
+    "icon": "fast-forward"
+  },
+  "options": {},
+  "attributes": {
+    "Answer": {
+      "type": "string"
+    },
+    "Question": {
+      "type": "string"
+    }
+  }
+}
