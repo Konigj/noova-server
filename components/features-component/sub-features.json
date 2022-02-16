@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_features_component_sub_features",
+  "info": {
+    "name": "subFeatures",
+    "icon": "pastafarianism"
+  },
+  "options": {},
+  "attributes": {
+    "subfeature_title": {
+      "type": "string",
+      "required": true
+    },
+    "subfeature_description": {
+      "type": "string",
+      "required": true
+    },
+    "subfeature_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

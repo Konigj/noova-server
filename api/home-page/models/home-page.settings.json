@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "home_pages",
+  "collectionName": "home_ps",
   "info": {
-    "name": "HomePage"
+    "name": "HomeP",
+    "description": ""
   },
   "options": {
     "increments": true,

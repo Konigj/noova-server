@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_features_component_features_indices",
+  "info": {
+    "name": "featuresIndex",
+    "icon": "fast-backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature_title": {
+      "type": "string",
+      "required": true
+    },
+    "feature_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "subFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-component.sub-features",
+      "required": true
+    }
+  }
+}
