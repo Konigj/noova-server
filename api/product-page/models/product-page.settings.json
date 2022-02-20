@@ -1,9 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "faqs",
+  "kind": "singleType",
+  "collectionName": "product_pages",
   "info": {
-    "name": "FAQ",
-    "description": ""
+    "name": "product_page"
   },
   "options": {
     "increments": true,
@@ -12,10 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "faq_section": {
+    "benefits_section": {
       "type": "component",
       "repeatable": true,
-      "component": "faq-section.faq-section"
+      "component": "benefits-section.benefits-section"
     }
   }
 }

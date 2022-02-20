@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_benefit_benefits",
+  "info": {
+    "name": "benefit",
+    "icon": "long-arrow-alt-right"
+  },
+  "options": {},
+  "attributes": {
+    "benefit_name": {
+      "type": "string"
+    }
+  }
+}

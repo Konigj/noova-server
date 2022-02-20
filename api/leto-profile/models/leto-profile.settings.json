@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "leto_profiles",
   "info": {
-    "name": "products",
-    "description": ""
+    "name": "Leto_Profile"
   },
   "options": {
     "increments": true,
@@ -12,20 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slug": {
-      "type": "uid",
-      "targetField": "product_title"
-    },
-    "product_title": {
+    "leto_name": {
       "type": "string",
       "required": true
     },
-    "product_description": {
-      "type": "text",
-      "required": true
-    },
-    "product_image": {
-      "collection": "file",
+    "leto_bg": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -34,8 +25,15 @@
       "required": true,
       "pluginOptions": {}
     },
-    "product_price": {
-      "type": "integer",
+    "leto_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link-names-and-links.leto-links"
+    },
+    "leto_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icons.leto-icons",
       "required": true
     }
   }

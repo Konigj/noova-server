@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_faq_section_faq_sections",
+  "info": {
+    "name": "faq_section",
+    "icon": "haykal"
+  },
+  "options": {},
+  "attributes": {
+    "q_and_a": {
+      "type": "component",
+      "repeatable": true,
+      "component": "qand-a.q-and-a"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_link_names_and_links_leto_links",
+  "info": {
+    "name": "leto_links",
+    "icon": "wifi"
+  },
+  "options": {},
+  "attributes": {
+    "link_name": {
+      "type": "string",
+      "required": true
+    },
+    "link_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

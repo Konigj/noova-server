@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_icons_leto_icons",
+  "info": {
+    "name": "leto_icons",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "icon_url": {
+      "type": "string",
+      "required": true
+    },
+    "icon_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

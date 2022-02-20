@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/home-pages",
-      "handler": "home-page.find",
+      "path": "/leto-profiles",
+      "handler": "leto-profile.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/home-pages/count",
-      "handler": "home-page.count",
+      "path": "/leto-profiles/count",
+      "handler": "leto-profile.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/home-pages/:id",
-      "handler": "home-page.findOne",
+      "path": "/leto-profiles/:id",
+      "handler": "leto-profile.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/home-pages",
-      "handler": "home-page.create",
+      "path": "/leto-profiles",
+      "handler": "leto-profile.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/home-pages/:id",
-      "handler": "home-page.update",
+      "path": "/leto-profiles/:id",
+      "handler": "leto-profile.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/home-pages/:id",
-      "handler": "home-page.delete",
+      "path": "/leto-profiles/:id",
+      "handler": "leto-profile.delete",
       "config": {
         "policies": []
       }
