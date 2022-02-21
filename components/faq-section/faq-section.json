@@ -2,7 +2,8 @@
   "collectionName": "components_faq_section_faq_sections",
   "info": {
     "name": "faq_section",
-    "icon": "haykal"
+    "icon": "haykal",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,20 @@
       "type": "component",
       "repeatable": true,
       "component": "qand-a.q-and-a"
+    },
+    "faq_section_title": {
+      "type": "string",
+      "required": true
+    },
+    "faq_section_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
