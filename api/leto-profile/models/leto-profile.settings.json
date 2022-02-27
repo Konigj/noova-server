@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "leto_profiles",
   "info": {
-    "name": "Leto_Profile"
+    "name": "Leto_Profile",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -35,6 +36,26 @@
       "repeatable": true,
       "component": "icons.leto-icons",
       "required": true
+    },
+    "leto_links_textColor": {
+      "type": "string",
+      "required": true
+    },
+    "leto_name_textColor": {
+      "type": "string",
+      "required": true
+    },
+    "leto_icons_color": {
+      "type": "string",
+      "required": true
+    },
+    "leto_links_bgColor": {
+      "type": "string",
+      "required": true
+    },
+    "letoSlug": {
+      "type": "uid",
+      "targetField": "leto_name"
     }
   }
 }
