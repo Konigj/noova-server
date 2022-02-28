@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bacos",
+  "info": {
+    "name": "baco"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "baco_title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "baco_title"
+    }
+  }
+}

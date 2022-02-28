@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "letos",
+  "info": {
+    "name": "letos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leto_name": {
+      "type": "string",
+      "required": true
+    },
+    "leto_slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "leto_name"
+    }
+  }
+}

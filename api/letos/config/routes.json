@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/letos",
+      "handler": "letos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/letos/count",
+      "handler": "letos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/letos/:leto_slug",
+      "handler": "letos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/letos",
+      "handler": "letos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/letos/:leto_slug",
+      "handler": "letos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/letos/:leto_slug",
+      "handler": "letos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

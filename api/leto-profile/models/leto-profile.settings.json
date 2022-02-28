@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "leto_profiles",
+  "collectionName": "letoProfiles",
   "info": {
-    "name": "Leto_Profile",
+    "name": "letoProfiles",
     "description": ""
   },
   "options": {
@@ -53,7 +53,7 @@
       "type": "string",
       "required": true
     },
-    "letoSlug": {
+    "slug": {
       "type": "uid",
       "targetField": "leto_name"
     }
