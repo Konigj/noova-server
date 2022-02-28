@@ -1,25 +1,15 @@
 {
-  "kind": "collectionType",
-  "collectionName": "letos",
+  "collectionName": "components_leto_profile_juans",
   "info": {
-    "name": "letos",
+    "name": "juan",
+    "icon": "arrow-alt-circle-up",
     "description": ""
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "leto_name": {
       "type": "string",
       "required": true
-    },
-    "leto_slug": {
-      "type": "uid",
-      "required": true,
-      "targetField": "leto_name"
     },
     "leto_bg": {
       "model": "file",
@@ -32,10 +22,6 @@
       "required": true,
       "pluginOptions": {}
     },
-    "leto_name_textColor": {
-      "type": "string",
-      "required": true
-    },
     "leto_links": {
       "type": "component",
       "repeatable": true,
@@ -45,7 +31,6 @@
     "leto_icons": {
       "type": "component",
       "repeatable": true,
-      "required": true,
       "component": "icons.leto-icons"
     },
     "leto_links_textColor": {
@@ -53,6 +38,10 @@
       "required": true
     },
     "leto_links_bgColor": {
+      "type": "string",
+      "required": true
+    },
+    "leto_name_textColor": {
       "type": "string",
       "required": true
     },

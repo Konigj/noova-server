@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_baco_profile_bacos",
+  "info": {
+    "name": "baco",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "baco_name": {
+      "type": "string"
+    }
+  }
+}
