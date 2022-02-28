@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/leto-profiles/:id",
+      "path": "/leto-profiles/:slug",
       "handler": "leto-profile.findOne",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/leto-profiles/:id",
+      "path": "/leto-profiles/:slug",
       "handler": "leto-profile.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/leto-profiles/:id",
+      "path": "/leto-profiles/:slug",
       "handler": "leto-profile.delete",
       "config": {
         "policies": []

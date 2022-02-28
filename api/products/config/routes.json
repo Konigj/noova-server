@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/products/:id",
+      "path": "/products/:slug",
       "handler": "products.findOne",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/products/:id",
+      "path": "/products/:slug",
       "handler": "products.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/products/:id",
+      "path": "/products/:slug",
       "handler": "products.delete",
       "config": {
         "policies": []
