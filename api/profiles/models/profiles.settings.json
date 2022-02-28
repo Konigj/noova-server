@@ -25,6 +25,16 @@
       "type": "component",
       "repeatable": false,
       "component": "baco-profile.baco"
+    },
+    "juno": {
+      "type": "component",
+      "repeatable": false,
+      "component": "juno.juno"
+    },
+    "mino": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mino.mino"
     }
   }
 }

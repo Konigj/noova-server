@@ -1,17 +1,12 @@
 {
-  "collectionName": "components_baco_profile_bacos",
+  "collectionName": "components_mino_minos",
   "info": {
-    "name": "baco",
-    "icon": "angle-right",
-    "description": ""
+    "name": "mino",
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
-    "baco_name": {
-      "type": "string",
-      "required": true
-    },
-    "baco_Image": {
+    "mino_bg": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -22,35 +17,48 @@
       "required": true,
       "pluginOptions": {}
     },
-    "baco_name_textColor": {
+    "mino_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "mino_name": {
       "type": "string",
       "required": true
     },
-    "baco_bg": {
+    "mino_description": {
       "type": "string",
       "required": true
     },
-    "baco_links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link-names-and-links.leto-links",
-      "required": true
-    },
-    "baco_links_bg": {
+    "mino_ubication": {
       "type": "string",
       "required": true
     },
-    "baco_links_textColor": {
-      "type": "string",
-      "required": true
-    },
-    "baco_icons": {
+    "mino_icons": {
       "type": "component",
       "repeatable": true,
       "component": "icons.leto-icons",
       "required": true
     },
-    "baco_footer_logo": {
+    "mino_links_bg": {
+      "type": "string",
+      "required": true
+    },
+    "mino_links_textColor": {
+      "type": "string",
+      "required": true
+    },
+    "mino_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link-names-and-links.leto-links"
+    },
+    "mino_footer_logo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
