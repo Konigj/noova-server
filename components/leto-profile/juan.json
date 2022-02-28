@@ -54,6 +54,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "leto_icons_color": {
+      "type": "string",
+      "required": true
     }
   }
 }

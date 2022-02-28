@@ -59,6 +59,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "baco_icons_color": {
+      "type": "string",
+      "required": true
     }
   }
 }

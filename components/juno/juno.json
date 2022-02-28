@@ -2,7 +2,8 @@
   "collectionName": "components_juno_junos",
   "info": {
     "name": "juno",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -68,6 +69,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "juno_icons_color": {
+      "type": "string",
+      "required": true
     }
   }
 }
