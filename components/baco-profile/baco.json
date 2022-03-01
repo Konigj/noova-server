@@ -65,7 +65,7 @@
       "required": true
     },
     "baco_description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
