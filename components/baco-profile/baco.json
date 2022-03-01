@@ -63,6 +63,9 @@
     "baco_icons_color": {
       "type": "string",
       "required": true
+    },
+    "baco_description": {
+      "type": "string"
     }
   }
 }
