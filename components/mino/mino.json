@@ -72,6 +72,10 @@
     "mino_icons_color": {
       "type": "string",
       "required": true
+    },
+    "mino_name_textColor": {
+      "type": "string",
+      "required": true
     }
   }
 }
