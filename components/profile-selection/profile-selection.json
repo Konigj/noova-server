@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_profile_selection_profile_selections",
+  "info": {
+    "name": "profile_selection",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "profile_name": {
+      "type": "string",
+      "required": true
+    },
+    "profile_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
